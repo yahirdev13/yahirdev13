@@ -20,4 +20,6 @@
 
 <h3 align="left">Tools:</h3>
 
+<p align="center"><img align="left" style="width: 50%" src="https://github-readme-stats.vercel.app/api/top-langs?username=yahirdev13&show_icons=true&locale=en&layout=compact" alt="yahirdev13" /></p>
+
 
