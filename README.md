@@ -20,4 +20,4 @@
 
 <h3 align="left">Tools:</h3>
 
-<p><img align="left" style="width: 40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=yahirdev13&show_icons=true&locale=en&layout=compact" alt="yahirdev13" /></p>
+<p><img align="left" style="width: 50%" src="https://github-readme-stats.vercel.app/api/top-langs?username=yahirdev13&show_icons=true&locale=en&layout=compact" alt="yahirdev13" /></p>
