@@ -87,7 +87,7 @@
 
 ###
 
-- 🌱 I’m currently learning **Next.js, UX/UI Design and Redis**
+- 🌱 I’m currently learning **Next.js and UX/UI Design**
 
 - 👨‍💻 All of my projects are available at [https://github.com/yahirdev13](https://github.com/yahirdev13)
 
