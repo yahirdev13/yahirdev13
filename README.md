@@ -91,17 +91,14 @@
 
 ###
 
-- 🔭 I’m currently working on [Goat Hiking](https://github.com/FReptar0/goat-hiking)
-
 - 🌱 I’m currently learning **Next.js, UX/UI Design and Redis**
 
-- 👨‍💻 All of my projects are available at [https://github.com/FReptar0](https://github.com/FReptar0)
+- 👨‍💻 All of my projects are available at [https://github.com/yahirdev13](https://github.com/yahirdev13)
 
 - 💬 Ask me about **Next.js, Node.js, JavaScript, TypeScript and Java**
 
-- 📫 How to reach me **fmemije00@gmail.com**
+- 📫 How to reach me **yahir.dev13@gmail.com**
 
-- ⚡ Fun fact **I have been programming since I turned 12 years old.**
 
 ###
 
