@@ -1,119 +1,149 @@
-<br clear="both">
+<div align="center">
 
-<h1 align="center">Hi ! I'm Yahir Diaz <br>A Full-Stack Developer from Mexico</h1>
+```
+██╗   ██╗ █████╗ ██╗  ██╗██╗██████╗     ██████╗ ███████╗██╗   ██╗
+╚██╗ ██╔╝██╔══██╗██║  ██║██║██╔══██╗    ██╔══██╗██╔════╝██║   ██║
+ ╚████╔╝ ███████║███████║██║██████╔╝    ██║  ██║█████╗  ██║   ██║
+  ╚██╔╝  ██╔══██║██╔══██║██║██╔══██╗    ██║  ██║██╔══╝  ╚██╗ ██╔╝
+   ██║   ██║  ██║██║  ██║██║██║  ██║    ██████╔╝███████╗ ╚████╔╝ 
+   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝    ╚═════╝ ╚══════╝  ╚═══╝  
+```
 
-###
+### Full-Stack Developer · Freelancer · Builder
 
-
-###
-
-<h2 align="left">Languages and Tools:</h2>
-
-###
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=express" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=react" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gradle" height="30" alt="gradle logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=maven" height="30" alt="apachemaven logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=spring" height="30" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=arduino" height="30" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="30" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gcp" height="30" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vercel" height="30" alt="vercel logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nginx" height="30" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=redis" height="30" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bash" height="30" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/git/F05032" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bots" height="30" alt="abbrobotstudio logo"  />
-</div>
-
-###
-
-
-
-###
-
-- 🌱 I’m currently learning **Next.js and UX/UI Design**
-
-- 👨‍💻 All of my projects are available at [https://github.com/yahirdev13](https://github.com/yahirdev13)
-
-- 💬 Ask me about **Next.js, Node.js, JavaScript, TypeScript and Java**
-
-- 📫 How to reach me **yahir.dev13@gmail.com**
-
-
-###
-
-<h2 align="left">Contact with me:</h2>
-
-###
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/yahirdev13/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-
-  <a href="mailto:yahir.dev13@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--teal--beta--17.vercel.app-0d9488?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-teal-beta-17.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yahirdev13-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
+[![Email](https://img.shields.io/badge/Email-yahir.dev13@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
+[![México](https://img.shields.io/badge/📍_México-Disponible_para_proyectos-16a34a?style=for-the-badge)](#)
 
 </div>
 
+---
 
-<!--<img src="https://raw.githubusercontent.com/FReptar0/FReptar0/output/snake.svg" alt="Snake animation" />-->
+## 🧠 Sobre mí
 
-###
+Soy un desarrollador **Full-Stack freelancer** especializado en construir plataformas web completas — de la arquitectura hasta el deploy en producción. No hago demos de juguete.
+
+Me muevo con comodidad en todo el stack: interfaces con **Next.js + TypeScript**, backends con **Node.js / Fastify**, bases de datos relacionales y NoSQL, e integraciones con ERPs empresariales como **SAGE 300** y **Odoo**.
+
+```ts
+const yahir = {
+  stack:     ["Next.js", "TypeScript", "Node.js", "Fastify", "PostgreSQL", "MongoDB"],
+  enfoque:   ["SaaS multi-tenant", "Automatización ERP", "Marketplaces", "REST APIs"],
+  ubicación: "México 🇲🇽",
+  estado:    "✅ Disponible para proyectos freelance",
+};
+```
+
+---
+
+## 🚀 Proyectos en producción
+
+### 🔗 [SageConnect](https://portfolio-teal-beta-17.vercel.app/#projects) — ERP Automation
+> Sistema de automatización que sincroniza **SAGE 300** con un portal de proveedores, procesando CFDIs y eliminando reconciliación manual.
+
+- ⚡ **95%** de reducción en trabajo manual operativo
+- 📄 **200+ CFDIs** procesados por día
+- ⏱️ **< 2 min** de tiempo de sincronización
+- `Node.js` `TypeScript` `MSSQL` `Express`
+
+---
+
+### 🧹 [Cleany SaaS](https://portfolio-teal-beta-17.vercel.app/#projects) — Plataforma SaaS *(en desarrollo)*
+> Plataforma **multi-tenant** para empresas de limpieza: booking, pagos con Stripe, gestión de empleados y dashboard analytics en tiempo real.
+
+- 🏗️ Arquitectura multi-tenant desde cero
+- 💳 Integración de pagos con **Stripe**
+- 📊 Analytics en tiempo real
+- `Next.js 15` `Fastify` `PostgreSQL` `Stripe`
+
+---
+
+### 🚗 [QarDeal](https://portfolio-teal-beta-17.vercel.app/#projects) — Marketplace Nacional
+> Marketplace de renta de vehículos en México con búsqueda **geolocalizada**, reservas en tiempo real y panel de administración completo.
+
+- 🗺️ Cobertura nacional MX
+- 🔐 Autenticación con **JWT + OAuth**
+- 📦 Marketplace completo con panel admin
+- `Next.js` `TypeScript` `MongoDB` `Node.js`
+
+---
+
+### 📋 [Tersoft Cotizador](https://portfolio-teal-beta-17.vercel.app/#projects) — Business Automation
+> App que automatiza el flujo de cotizaciones integrando **Odoo ERP** con Google Sheets, genera PDFs y envía emails automáticos al equipo de ventas.
+
+- ⚡ **−80%** en tiempo de generación de cotizaciones
+- 🔗 Integración directa con **Odoo ERP**
+- 📄 PDFs generados automáticamente
+- `Next.js` `Node.js` `Odoo API` `Google Sheets API` `Puppeteer`
+
+---
+
+## 🛠️ Stack técnico
+
+### Frontend
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055ff?style=flat-square&logo=framer&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat-square&logo=vue.js&logoColor=white)
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java_/_Spring_Boot-6db33f?style=flat-square&logo=spring&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-ff6c37?style=flat-square&logo=postman&logoColor=white)
+
+### Bases de datos
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479a1?style=flat-square&logo=mysql&logoColor=white)
+![MSSQL](https://img.shields.io/badge/MSSQL-cc2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat-square&logo=firebase&logoColor=black)
+
+### DevOps & Tooling
+![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat-square&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Yahir's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yahirdev13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yahirdev13&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=yahirdev13&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 💼 ¿Tienes un proyecto?
+
+Estoy disponible para proyectos **freelance** de alcance definido o colaboraciones de largo plazo. Tiempo parcial y completo disponible.
+
+En qué puedo ayudarte:
+
+- 🏗️ **Aplicaciones web Full-Stack** — de cero a producción
+- 🔗 **Integraciones y automatización** — ERPs, APIs externas, sistemas legacy
+- ☁️ **Arquitecturas SaaS** — multi-tenant, pagos, analytics
+- 🧭 **Consultoría técnica** — stack, arquitectura, code review
+
+> **Respondo en menos de 24h** · [yahir.dev13@gmail.com](mailto:yahir.dev13@gmail.com)
+
+---
+
+<div align="center">
+
+*Construido con código real. Para clientes reales. Problemas reales resueltos.*
+
+</div>
