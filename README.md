@@ -1,10 +1,10 @@
 <div align="center">
 
-# Yahir Alberto 👨‍💻
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=200&section=header&text=Yahir%20Alberto&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Developer&descSize=18&descColor=58a6ff&descAlignY=55&animation=fadeIn" width="100%" />
 
-**Full-Stack Developer — Automatización Empresarial · Integraciones ERP · SaaS**
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Automatizaci%C3%B3n+Empresarial+%7C+ERP;Plataformas+SaaS+Multi-Tenant;Integraci%C3%B3n+de+APIs+Complejas;De+la+idea+al+deploy+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
-Construyo plataformas web completas, automatizo procesos empresariales y diseño arquitecturas que escalan — de la idea al deploy.
+<br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000?style=for-the-badge&logoColor=white)](https://portfolio-teal-beta-17.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
@@ -129,3 +129,5 @@ He automatizado ERPs empresariales, construido plataformas SaaS multi-tenant, in
 [![Email](https://img.shields.io/badge/📬_Contactar-EA4335?style=for-the-badge)](mailto:yahir.dev13@gmail.com)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" width="100%" />
