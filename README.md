@@ -144,17 +144,6 @@ Sistema de facturación electrónica (CFDI), centralización de datos de factura
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yahirdev13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yahirdev13&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
-
----
-
 ## 🤝 Trabajemos juntos
 
 Estoy **abierto a roles full-time remotos** (Full-Stack, Software / Solutions / Implementation Engineer) y a **proyectos freelance** de alcance definido.
