@@ -14,6 +14,7 @@
 **I build the software companies run on: ERP integrations, multi-tenant SaaS and internal tools.**<br>
 *AI writes code fast. I make sure it holds up in production.*
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-yahirdiaz--dev.vercel.app-0B1626?style=for-the-badge&logo=vercel&logoColor=white)](https://yahirdiaz-dev.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yahirdev13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
 [![Email](https://img.shields.io/badge/Email-yahir.dev13-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
 ![AI-native](https://img.shields.io/badge/AI--native-Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
@@ -67,7 +68,7 @@ flowchart LR
 - ♻️ **Retries without duplicates:** failed payments (every 30 min) and purchase orders (every 4 h) from the last 30 days get another try, and an order that already reached the portal is reconciled, not created twice.
 - 📊 **20k lines** of JavaScript and **64 test files** on main, with **300+ of my commits** in the public repo.
 
-`Node.js` `Express` `SQL Server` `Jest` · **[View the repo →](https://github.com/FReptar0/sageconnect)**
+`Node.js` `Express` `SQL Server` `Jest` · **[Read the case study →](https://yahirdiaz-dev.vercel.app/work/sageconnect)** · **[View the repo →](https://github.com/FReptar0/sageconnect)**
 
 ---
 
@@ -75,9 +76,9 @@ flowchart LR
 
 | | Project | What it does | My role | Stack | Status |
 |:-:|---|---|---|---|---|
-| ⭐ | **[SageConnect](https://github.com/FReptar0/sageconnect)** | Syncs SAGE 300 with a supplier portal for several companies, every 15 minutes | Co-builder · sole maintainer | Node.js · Express · SQL Server | 🟢 In production since 2023 |
-| 🏭 | **SageSync** | Keeps a mining operation's warehouse stock in Fracttal in step with SAGE 300, three times a day | Sole developer since May 2026 | Node.js · SQL Server · Fracttal API | 🟢 In production |
-| 💰 | **Commission engine** | Odoo 18 module that turns a distributor's invoices into monthly sales commissions | Lead developer | Odoo · Python · PostgreSQL | 🟢 In production since Apr 2026 |
+| ⭐ | **[SageConnect](https://yahirdiaz-dev.vercel.app/work/sageconnect)** | Syncs SAGE 300 with a supplier portal for several companies, every 15 minutes | Co-builder · sole maintainer | Node.js · Express · SQL Server | 🟢 In production since 2023 |
+| 🏭 | **[SageSync](https://yahirdiaz-dev.vercel.app/work/sagesync)** | Keeps a mining operation's warehouse stock in Fracttal in step with SAGE 300, three times a day | Sole developer since May 2026 | Node.js · SQL Server · Fracttal API | 🟢 In production |
+| 💰 | **[Commission engine](https://yahirdiaz-dev.vercel.app/work/commission-engine)** | Odoo 18 module that turns a distributor's invoices into monthly sales commissions | Lead developer | Odoo · Python · PostgreSQL | 🟢 In production since Apr 2026 |
 | 🔧 | **Pegasus — Workshop OS** | ERP/CRM for a family auto-repair shop: service-order state machine, atomic folios, row-level security | Built end to end | Next.js · TypeScript · Prisma · Supabase | 🟡 v0.4 · preparing go-live |
 | 🧹 | **Cleany** | Multi-tenant SaaS for cleaning agencies: crew scheduling, Stripe billing, QR + PIN sign-in | Co-developer | React · Fastify · PostgreSQL · Stripe | 🟢 Live |
 | 🏋️ | **A&D Fitness Center** | Gym website plus the coaching system behind it: routines, meal plans and progress | End to end | HTML · CSS · JavaScript | 🟢 In use |
@@ -159,6 +160,7 @@ A CFDI e-invoicing system in React, and accounting workflows moved from Excel to
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-yahirdiaz--dev.vercel.app-0B1626?style=for-the-badge&logo=vercel&logoColor=white)](https://yahirdiaz-dev.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yahirdev13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
 [![Email](https://img.shields.io/badge/Email-yahir.dev13-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
 
@@ -177,9 +179,9 @@ Full-Stack Engineer en **Tersoft** desde diciembre de 2024. Ahí co-construí y 
 
 | | Proyecto | Qué hace | Mi rol | Estado |
 |:-:|---|---|---|---|
-| ⭐ | **[SageConnect](https://github.com/FReptar0/sageconnect)** | Sincroniza SAGE 300 con un portal de proveedores para varias empresas, cada 15 minutos | Co-builder · único maintainer | 🟢 En producción desde 2023 |
-| 🏭 | **SageSync** | Mantiene el inventario de una operación minera igual en Fracttal que en SAGE 300, tres veces al día | Desarrollador único desde mayo de 2026 | 🟢 En producción |
-| 💰 | **Motor de comisiones** | Módulo de Odoo 18 que convierte las facturas de una distribuidora en las comisiones mensuales de sus vendedores | Desarrollador principal | 🟢 En producción desde abril de 2026 |
+| ⭐ | **[SageConnect](https://yahirdiaz-dev.vercel.app/es/work/sageconnect)** | Sincroniza SAGE 300 con un portal de proveedores para varias empresas, cada 15 minutos | Co-builder · único maintainer | 🟢 En producción desde 2023 |
+| 🏭 | **[SageSync](https://yahirdiaz-dev.vercel.app/es/work/sagesync)** | Mantiene el inventario de una operación minera igual en Fracttal que en SAGE 300, tres veces al día | Desarrollador único desde mayo de 2026 | 🟢 En producción |
+| 💰 | **[Motor de comisiones](https://yahirdiaz-dev.vercel.app/es/work/commission-engine)** | Módulo de Odoo 18 que convierte las facturas de una distribuidora en las comisiones mensuales de sus vendedores | Desarrollador principal | 🟢 En producción desde abril de 2026 |
 | 🔧 | **Pegasus — Workshop OS** | ERP/CRM para un taller mecánico familiar: máquina de estados de órdenes, folios atómicos y row-level security | De punta a punta | 🟡 v0.4 · por salir |
 | 🧹 | **Cleany** | SaaS multi-tenant para agencias de limpieza: programación de cuadrillas, cobro con Stripe y acceso con QR + PIN | Co-desarrollador | 🟢 En vivo |
 | 🏋️ | **A&D Fitness Center** | Sitio de un gimnasio y el sistema de entrenamiento detrás: rutinas, dietas y progreso | De punta a punta | 🟢 En uso |
@@ -187,5 +189,7 @@ Full-Stack Engineer en **Tersoft** desde diciembre de 2024. Ahí co-construí y 
 | 📱 | **[Finite](https://finite-app-seven.vercel.app)** | Fondos de pantalla para iPhone con métricas de vida y cuentas regresivas | Proyecto personal | 🟢 En vivo |
 
 **Cómo trabajo con IA:** discutir → planear → ejecutar → verificar, una fase a la vez. El modelo de datos, las reglas de dinero, lo que no se construye y la revisión final son míos.
+
+**Portafolio en español:** [yahirdiaz-dev.vercel.app/es](https://yahirdiaz-dev.vercel.app/es)
 
 </details>
