@@ -9,159 +9,183 @@
    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝    ╚═════╝ ╚══════╝  ╚═══╝  
 ```
 
-### Full-Stack Developer · Arquitectura de plataformas & Integración ERP
+### Yahir Díaz · Full-Stack Engineer
 
-**Construyo plataformas que conectan sistemas críticos de negocio** — del discovery a producción, con código que el equipo de operaciones no tiene que volver a tocar.
+**I build the software companies run on: ERP integrations, multi-tenant SaaS and internal tools.**<br>
+*AI writes code fast. I make sure it holds up in production.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ver_proyectos-0D9488?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-teal-beta-17.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yahirdev13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
 [![Email](https://img.shields.io/badge/Email-yahir.dev13-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
-[![Disponible](https://img.shields.io/badge/Disponible-Full--time_y_Freelance-16A34A?style=for-the-badge)](#-trabajemos-juntos)
+![AI-native](https://img.shields.io/badge/AI--native-Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
-**3+ años en producción** · **6+ plataformas desplegadas** · **15+ clientes** · **Remoto desde México 🇲🇽**
+**Shipping to production since 2022** · **15+ client deliveries at Tersoft** · **Cuernavaca, Mexico 🇲🇽**
 
 </div>
 
 ---
 
-## 🧠 Sobre mí
+## 👋 About me
 
-Desarrollador **Full-Stack** con 3+ años construyendo software que llega a producción y se queda ahí. Hoy en **Tersoft**, donde he entregado 15+ proyectos a la medida en manufactura, distribución, salud y retail.
+Full-Stack Engineer at **Tersoft** since December 2024. There I co-built and now maintain **SageConnect**, my largest system, and ship ERP work on SAGE 300 and Odoo. As an independent I build products for small businesses: a workshop ERP, a SaaS for cleaning agencies (co-developed) and websites for a clinic and a gym.
 
-Mi terreno: **integrar sistemas empresariales** (SAGE 300, Odoo, CFDI 4.0) y levantar **SaaS multi-tenant** desde cero. Mido mi trabajo por operaciones automatizadas, errores eliminados y procesos que dejan de necesitar atención humana — no por líneas de código.
-
-Entiendo el problema de negocio antes de escribir la primera línea. Por eso mis entregables se usan, no se archivan.
+I work AI-native: **Claude Code** is my daily engine, and specs, hard rules and CI keep its output correct. I care about what happens after the deploy: fewer manual steps, fewer errors, and systems people use without asking for help.
 
 ```ts
 const yahir = {
-  rol:          "Full-Stack Developer @ Tersoft",
-  stack:        ["Next.js", "TypeScript", "Node.js", "Fastify", "PostgreSQL"],
-  especialidad: [
-    "Integración de middleware ERP (SAGE 300, Odoo, CFDI 4.0)",
-    "Arquitectura SaaS multi-tenant",
-    "Integración cross-system (XML, REST, OAuth2)",
-    "Herramientas internas potenciadas con IA",
-  ],
-  ubicacion:    "México 🇲🇽 — remoto",
-  estado:       "Abierto a oportunidades full-time y freelance",
+  role: "Full-Stack Engineer @ Tersoft",
+  basedIn: "Cuernavaca, Mexico · UTC−6",
+  stack: ["TypeScript", "React", "Next.js", "Node.js", "PostgreSQL", "SQL Server"],
+  integrations: ["SAGE 300", "Odoo", "CFDI 4.0", "Stripe"],
+  engine: "Claude Code + specs, tests and CI",
+  shippingSince: 2022,
 };
 ```
 
 ---
 
-## ⭐ Proyecto destacado — SageConnect
+## ⭐ Featured · SageConnect, my largest system
 
-> **Motor de sincronización bidireccional entre SAGE 300 ERP y un portal de proveedores (Focaltec).** Co-desarrollado. Elimina la captura manual en facturas electrónicas, órdenes de compra, pagos y complementos.
+> **Co-builder, from design to code · sole maintainer since May 2026**
+>
+> An always-on integration between **SAGE 300** and a **supplier portal**. Invoices, purchase orders, payments and payment complements move on their own, for several companies at once, each with its own database.
 
-`Node.js 18` · `Express` · `MSSQL` · `Focaltec REST API` · `Gmail OAuth2`
+```mermaid
+flowchart LR
+    clock["⏱️ Clock<br/>every 15 min"] --> lock{"🔒 Lock<br/>one cycle at a time"}
+    button["▶️ Run now<br/>button"] --> lock
+    lock -- busy --> skip["⏭️ Skipped"]
+    lock -- free --> cycle
+    subgraph cycle ["For each company · 7 steps · 5 min limit each"]
+        direction LR
+        down["Portal → company<br/>suppliers · invoices"] --> up["SAGE → portal<br/>payments · purchase orders"]
+    end
+    cycle --> sage[("📥 Import into<br/>SAGE 300")]
+```
 
-- 🏗️ Arquitectura **multi-tenant** con aislamiento total de datos por cliente
-- 🔄 Ciclo de sincronización **cada 15 minutos**, sin intervención humana
-- 🎯 **0 capturas manuales** en los módulos de OC, facturas y pagos
-- ⚡ **−95%** de trabajo operativo recurrente
+- 🔒 **One lock** shared by the scheduler and the Run now button, so two cycles never overlap. It frees itself at 14 minutes, one before the next cycle.
+- ⏱️ **Every wait has a ceiling:** a portal call gives up at 30 s, a step at 5 min, the import into SAGE at 10 min.
+- ♻️ **Retries without duplicates:** failed payments (every 30 min) and purchase orders (every 4 h) from the last 30 days get another try, and an order that already reached the portal is reconciled, not created twice.
+- 📊 **20k lines** of JavaScript and **64 test files** on main, with **300+ of my commits** in the public repo.
 
-🔗 **[Ver el caso completo en el portfolio →](https://portfolio-teal-beta-17.vercel.app/#projects)**
-
----
-
-## 🚀 Proyectos en producción
-
-### 🧹 [Cleany SaaS](https://cleany.pro) — Plataforma SaaS multi-tenant
-> En producción en **cleany.pro**. Plataforma para empresas de limpieza con aislamiento por tenant (DB-per-tenant), booking en tiempo real, pagos recurrentes con Stripe, seguimiento de rutas y automatización por WhatsApp/email.
-
-`Next.js 15` · `TypeScript` · `Fastify` · `PostgreSQL` · `Stripe` · `Docker`
-
-### 🚗 [Cardeal](https://portfolio-teal-beta-17.vercel.app/#projects) — Plataforma de renta de vehículos
-> Convierte una operación 100% offline en un flujo self-service online, con **3 integraciones externas en paralelo**, inventario en vivo y confirmaciones con PDF + QR.
-
-`Next.js 15` · `React 19` · `MongoDB` · `Material-UI` · `TSD XML API`
-
-### 📋 [Tersoft Quoter](https://portfolio-teal-beta-17.vercel.app/#projects) — Herramienta interna con IA
-> La IA (Gemini) lee requerimientos en PDF, genera la cotización y deja un historial auditable. Integrada con Odoo vía XML-RPC.
-
-`Next.js 15` · `Gemini AI` · `Odoo XML-RPC` · `jsPDF` · `Nodemailer`
-
-⚡ **−88%** en tiempo por cotización — de 45 min a menos de 5.
+`Node.js` `Express` `SQL Server` `Jest` · **[View the repo →](https://github.com/FReptar0/sageconnect)**
 
 ---
 
-## 📦 Más entregables a la medida
+## 🗂️ Projects
 
-| Proyecto | Qué resuelve | Stack | Impacto |
+| | Project | What it does | My role | Stack | Status |
+|:-:|---|---|---|---|---|
+| ⭐ | **[SageConnect](https://github.com/FReptar0/sageconnect)** | Syncs SAGE 300 with a supplier portal for several companies, every 15 minutes | Co-builder · sole maintainer | Node.js · Express · SQL Server | 🟢 In production since 2023 |
+| 🏭 | **SageSync** | Keeps a mining operation's warehouse stock in Fracttal in step with SAGE 300, three times a day | Sole developer since May 2026 | Node.js · SQL Server · Fracttal API | 🟢 In production |
+| 💰 | **Commission engine** | Odoo 18 module that turns a distributor's invoices into monthly sales commissions | Lead developer | Odoo · Python · PostgreSQL | 🟢 In production since Apr 2026 |
+| 🔧 | **Pegasus — Workshop OS** | ERP/CRM for a family auto-repair shop: service-order state machine, atomic folios, row-level security | Built end to end | Next.js · TypeScript · Prisma · Supabase | 🟡 v0.4 · preparing go-live |
+| 🧹 | **Cleany** | Multi-tenant SaaS for cleaning agencies: crew scheduling, Stripe billing, QR + PIN sign-in | Co-developer | React · Fastify · PostgreSQL · Stripe | 🟢 Live |
+| 🏋️ | **A&D Fitness Center** | Gym website plus the coaching system behind it: routines, meal plans and progress | End to end | HTML · CSS · JavaScript | 🟢 In use |
+| 🩺 | **[Clínica Biomotion](https://clinica-integral-biomotion.vercel.app)** | Website redesign for an integrated health clinic, with booking by WhatsApp | End to end | HTML · CSS · JavaScript | 🟢 Live |
+| 📱 | **[Finite](https://finite-app-seven.vercel.app)** | iPhone lock-screen wallpapers with life metrics and countdowns, rendered server-side | Side project | Next.js · Satori | 🟢 Live |
+
+---
+
+## 🤖 How I work with AI
+
+| 01 · Discuss | 02 · Plan | 03 · Execute | 04 · Verify |
 |---|---|---|---|
-| **Pegasus Workshop OS** | ERP/CRM interno para taller automotriz — máquinas de estado, folio atómico, bitácora inmutable | `Next.js 14` · `TypeScript` · `Prisma` · `Supabase` | 0 folios duplicados · −70% tiempo/orden |
-| **Innova** | Automatización de ventas, contabilidad e inventario sobre Odoo | `Odoo` · `Python` · `XML` · `PostgreSQL` | −72% errores · 85% automatizado |
-| **Belle & Health** | Operación clínica de alto volumen con trazabilidad de inventario y carga masiva | `Odoo` · `Python` · `XML` · `PostgreSQL` | −80% errores de inventario · 90% carga automática |
-| **Biomotion Dashboard** | Panel multi-rol: pacientes, agenda, consultas, POS de farmacia e inventario | `JavaScript` · `Chart.js` · `Vercel` | 4→1 herramientas unificadas · −65% captura |
-| **A&D Fitness Center** | Plataforma de gimnasio: landing + dashboard admin (rutinas, dietas, facturación) | `JavaScript` · `HTML5` · `CSS3` | −75% tiempo de armado de rutina |
+| Pin down scope and gray areas with the people who will use it, before any code. | Every phase gets a plan with verification criteria. The agent does not improvise. | Claude Code implements on short branches, with atomic, traceable commits. | Types, lint and tests green, and I review every change against the plan. |
+
+**What I don't delegate:** the data model · money and tax rules · what not to build · the final review.
 
 ---
 
-## 💼 Experiencia
+## 💼 Experience
 
-**Full-Stack Developer** · Tersoft — *Dic 2024 – Presente*
-15+ entregables a la medida en manufactura, distribución, salud y retail. Construí SageConnect, verticalicé Odoo sobre Odoo.sh (−30% en tiempo operativo) y estandaricé el pipeline de despliegue.
+**Full-Stack Engineer · Tersoft** — *Dec 2024 – present*<br>
+SageConnect, SageSync and the commission engine; 15+ Odoo implementations for manufacturing, distribution, retail, logistics and healthcare clients; a standard Odoo.sh deployment pipeline that cut client onboarding from weeks to days.
 
-**Web Developer** · Jardines de México — *May – Sep 2023*
-Sistema de facturación electrónica (CFDI), centralización de datos de facturación y migración de procesos de Excel a web.
+**Full-Stack Engineer · Independent** — *2022 – present*<br>
+Products for small businesses: Pegasus, Cleany, Clínica Biomotion and A&D Fitness.
 
-🎓 **Ing. en Desarrollo y Gestión de Software** — Universidad Tecnológica Emiliano Zapata (UTEZ), 2025
+**Web Developer · Jardines de México** — *May – Sep 2023*<br>
+A CFDI e-invoicing system in React, and accounting workflows moved from Excel to a web app.
+
+🎓 **B.Eng. in Software Development & Management** — Universidad Tecnológica Emiliano Zapata (UTEZ), 2025
 
 ---
 
-## 🛠️ Stack técnico
+## 🛠️ Stack
 
-**Frontend**
+**Languages**<br>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Frontend**<br>
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-42B883?style=flat-square&logo=vuedotjs&logoColor=white)
+![Preact](https://img.shields.io/badge/Preact-673AB8?style=flat-square&logo=preact&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 
-**Backend**
+**Backend & APIs**<br>
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
-**Bases de datos**
+**Data**<br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
-**DevOps & Tooling**
+**Integrations**<br>
+![SAGE 300](https://img.shields.io/badge/SAGE_300-00A651?style=flat-square)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![CFDI 4.0](https://img.shields.io/badge/CFDI_4.0-006847?style=flat-square)
+
+**Quality & delivery**<br>
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+**AI**<br>
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 ---
 
-## 🤝 Trabajemos juntos
-
-Estoy **abierto a roles full-time remotos** (Full-Stack, Software / Solutions / Implementation Engineer) y a **proyectos freelance** de alcance definido.
-
-- 🏗️ **Aplicaciones web full-stack** — del discovery a producción
-- 🔗 **Integraciones y automatización** — ERPs, APIs externas, sistemas legacy
-- ☁️ **Arquitecturas SaaS multi-tenant** — aislamiento de datos, pagos, analytics
-- 🧭 **Puente técnico-negocio** — traducir necesidades de cliente en software que se usa
-
-🌐 Español (nativo) · Inglés (profesional) — 📬 respondo en menos de 24 h
-
-[![Email](https://img.shields.io/badge/Escríbeme-yahir.dev13@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Conecta-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
-
----
+## 📫 Contact
 
 <div align="center">
 
-*Operaciones automatizadas. Errores eliminados. Procesos que ya no necesitan atención humana.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yahirdev13-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yahirdev13)
+[![Email](https://img.shields.io/badge/Email-yahir.dev13-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yahir.dev13@gmail.com)
+
+Happy to talk about integrations, SaaS or shipping with AI.
 
 </div>
+
+<details>
+<summary><b>🇲🇽 Versión en español</b></summary>
+
+<br>
+
+**Yahir Díaz · Full-Stack Engineer.** Construyo el software con el que operan las empresas: integraciones con ERPs, SaaS multi-tenant y herramientas internas. *La IA escribe código rápido; yo me encargo de que funcione en producción.*
+
+Full-Stack Engineer en **Tersoft** desde diciembre de 2024. Ahí co-construí y hoy mantengo **SageConnect**, mi sistema más grande, y entrego proyectos de ERP sobre SAGE 300 y Odoo. Por mi cuenta hago productos para negocios pequeños: un ERP para un taller, un SaaS para agencias de limpieza (co-desarrollado) y sitios para una clínica y un gimnasio. Trabajo con IA todos los días: Claude Code es mi motor, y uso specs, reglas duras y CI para que lo que produce sea correcto.
+
+| | Proyecto | Qué hace | Mi rol | Estado |
+|:-:|---|---|---|---|
+| ⭐ | **[SageConnect](https://github.com/FReptar0/sageconnect)** | Sincroniza SAGE 300 con un portal de proveedores para varias empresas, cada 15 minutos | Co-builder · único maintainer | 🟢 En producción desde 2023 |
+| 🏭 | **SageSync** | Mantiene el inventario de una operación minera igual en Fracttal que en SAGE 300, tres veces al día | Desarrollador único desde mayo de 2026 | 🟢 En producción |
+| 💰 | **Motor de comisiones** | Módulo de Odoo 18 que convierte las facturas de una distribuidora en las comisiones mensuales de sus vendedores | Desarrollador principal | 🟢 En producción desde abril de 2026 |
+| 🔧 | **Pegasus — Workshop OS** | ERP/CRM para un taller mecánico familiar: máquina de estados de órdenes, folios atómicos y row-level security | De punta a punta | 🟡 v0.4 · por salir |
+| 🧹 | **Cleany** | SaaS multi-tenant para agencias de limpieza: programación de cuadrillas, cobro con Stripe y acceso con QR + PIN | Co-desarrollador | 🟢 En vivo |
+| 🏋️ | **A&D Fitness Center** | Sitio de un gimnasio y el sistema de entrenamiento detrás: rutinas, dietas y progreso | De punta a punta | 🟢 En uso |
+| 🩺 | **[Clínica Biomotion](https://clinica-integral-biomotion.vercel.app)** | Rediseño del sitio de una clínica integral, con citas por WhatsApp | De punta a punta | 🟢 En vivo |
+| 📱 | **[Finite](https://finite-app-seven.vercel.app)** | Fondos de pantalla para iPhone con métricas de vida y cuentas regresivas | Proyecto personal | 🟢 En vivo |
+
+**Cómo trabajo con IA:** discutir → planear → ejecutar → verificar, una fase a la vez. El modelo de datos, las reglas de dinero, lo que no se construye y la revisión final son míos.
+
+</details>
